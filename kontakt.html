@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <title>CuPiano</title>
+    <meta name="keywords" content="CuPiano, kontakt, muzika, časove, nastava, kontakt, besplatan">
+    <meta name="description" content="Piano časovi i nastava za sve uzraste! Besplatan prvi čas, uživajte u muzici. Kontakt za više informacija!">
+    <link rel="icon" type="image/png" href="sl/ikona.png">
+</head>
+<body>
+    <header>
+        <div id="nav_sve">
+            <div id="naslov">
+                <a href="index.html"><h1>CuPiano</h1></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="kontakt.html" class="boja_selected">Kontakt</a></li>
+                    <li><a href="oautoru.html">O autoru</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="kontakt_drzac" class="pozadina_svega">
+        <h1>Kontakt</h1>
+        <div id="forma_kontakt">
+            <div id="drzac">
+                <div id="faq">
+                    <h3>Često postavljana pitanja</h3>
+                
+                    <details>
+                        <summary>Kako da se prijavim na časove?</summary>
+                        <p>Da biste se prijavili na časove, jednostavno popunite obrazac na stranici <a href="index.html#zakazi">"Zakažite čas"</a> i neko od naših profesora će Vas kontaktirati radi dogovaranja termina.</p>
+                    </details>
+                
+                    <details>
+                        <summary>Koji je trajanje jednog časa?</summary>
+                        <p>Svaki čas traje 45 minuta. Možete se dogovoriti sa profesorom za duži čas, ukoliko je potrebno.</p>
+                    </details>
+                
+                    <details>
+                        <summary>Koje instrumente mogu učiti?</summary>
+                        <p>Trenutno nudimo časove klavira, ali uskoro ćemo proširiti ponudu sa drugim instrumentima kao što su gitara i harmonika.</p>
+                    </details>
+                    <details>
+                        <summary>Da li pružate online časove?</summary>
+                        <p>Da, nudimo online časove putem Zoom-a ili Discord-a.</p>
+                    </details>
+                    <details>
+                        <summary>Kako mogu da platim časove?</summary>
+                    <p>Časove možete platiti putem banke ili koristeći online platne sisteme kao što su PayPal ili kartica. Detalje o plaćanju ćemo Vam proslediti nakon što rezervišete čas.</p>
+                    </details>
+                    <details>
+                        <summary>Kako da kontaktiram profesora?</summary>
+                        <p>Profesor možete kontaktirati putem e-maila ili preko našeg kontakt formulara na sajtu. Takođe, svaki profesor ima svoj raspored koji možete pregledati na stranici profila.</p>
+                    </details>
+                </div>
+        
+                <div id="radno_vreme">
+                    <h3>Radno vreme</h3>
+                    <ul>
+                        <li>Ponedeljak - Petak: 10:00 - 20:00</li>
+                        <li>Subota: 10:00 - 15:00</li>
+                        <li>Nedelja: Ne radimo</li>
+                    </ul>
+                    <img src=".//sl/sat.png" alt="sat"/>
+                </div>
+            </div>
+            <div id="kontakt">
+                <h2>Kontaktirajte nas</h2>
+                <form id="kontakt_forma" action="index.php" method="POST">
+                    <label for="ime">Ime</label>
+                    <input type="text" id="ime1" name="ime" placeholder="Vaše ime" required>
+                
+                    <label for="prezime">Prezime</label>
+                    <input type="text" id="prezime" name="prezime" placeholder="Vaše prezime" required>
+                
+                    <label for="godine">Godine</label>
+                    <input type="number" id="godine" name="godine" placeholder="Vaše godine" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Vaš email" required>
+                
+                    <label for="telefon">Broj telefona</label>
+                    <input type="tel" id="telefon" name="telefon" placeholder="Vaš broj telefona" required>
+                
+                    <label for="poruka">Poruka</label>
+                    <textarea id="poruka" name="poruka" rows="5" placeholder="Vaša poruka" required></textarea>
+                
+                    <button type="reset" class="dugme">Pošaljite</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="mapa_lokacija">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.7438509173376!2d20.894847715659913!3d44.01652177911086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47508b1fcb1c7f91%3A0x9a3a57c8c273e7b3!2sPere%20Radovanovi%C4%87a%2014%2F25%2C%20Bor!5e0!3m2!1sen!2srs!4v1698224048992!5m2!1sen!2srs" 
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>  
+    <div id="zakazi_cas">
+        <div class="zakazi_cas_sadrzaj">
+            <div class="zakazi_tekst">
+                <h2>Zakažite besplatan probni čas!</h2>
+                <div class="zakazi_button">
+                    <a href="tel:+381653320799" class="dugme pozovi">Pozovi nas</a>
+                    <a href="index.html#zakazi" class="dugme poruka">Zakažite čas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_box">
+            <div id="footer_abt">
+                <h2>CuMusic</h2>
+                <p>Inspiracija kroz muziku. Pomažemo vam da otkrijete svoj muzički potencijal i postanete pravi umetnik.</p>
+            </div>
+            <div id="footer_link">
+                <h3>Linkovi</h3>
+                <ul>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="oautoru.html">O autoru</a></li>
+                    <li><a href="pogledajtermine.html">Pogledaj termine</a></li>
+                    <li><a href="pogledajponude.html">Pogledaj ponude</a></li>
+                </ul>
+            </div>
+            <div id="footer_kontakt">
+                <h3>Kontakt</h3>
+                <p>Adresa: Pere Radovanovica 14/25, Bor, Srbija</p>
+                <p>Email: <a href="mailto:info@cumusic.com">mateja.djordjevi.6.24@ict.edu.rs</a></p>
+                <p>Telefon: <a href="tel:+381600000000">+381 653320799</a></p>
+            </div>
+            <div id="footer_socials">
+                <h3>Pratite nas</h3>
+                <div id="socials_ikonice">
+                    <a href="https://www.facebook.com/mateja.djordjevic.9619" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/djordjeviicm._/" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="www.twitter.com" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer_kopi">
+            <p>&copy; 2024 CuMusic. Sva prava zadržana.</p>
+        </div>
+    </footer>
+</body>
+</html>
